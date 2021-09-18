@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JS</title>
+  </head>
+  <body>
+    <script>
+      let sum = 0;
+
+      while (true) {
+        let value = prompt('Введите число', '');
+
+        if (!value) break; // (*)
+
+        sum += value;
+      }
+      alert('Сумма: ' + sum);
+    </script>
+  </body>
+</html>

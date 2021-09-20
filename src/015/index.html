@@ -6,12 +6,11 @@
   </head>
   <body>
     <script>
-      for (let i = 2; i <= 10; i++) {
-        if (i % 2 !== 0) {
-          continue;
+      while (true) {
+        const number = prompt('Введите число больше 100', '')
+        if (number === null || +number > 100) {
+          break;
         }
-
-        alert(i);
       }
     </script>
   </body>
